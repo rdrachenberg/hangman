@@ -1,25 +1,34 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>HangMan</title>
+	<title>HangMan Game</title>
 	<!--CSS-->
 	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
+	
 	<!--Bootstrap-->
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+	<!--javaScript-->
+	<script type="text/javascript" src="assets/javascript/game.js"></script>
+
 </head>
 <body>
-	<h1>HangMan</h1>
+	<header>
+		<div class=mashhead>
+			<img src="assets/images/hangmanbannerimg.png">
+		</div>
+	</header>
 </body>
 	<div class="container">
-		<header>
-			<h1>Hangman Game</h1>
-			<h3>Minnie's Diabeties</h3>
-		</header>
-		<div class="underscores">_ _ _ _</div>
-		<br>
-		<div class="rightGuess">right guess</div>
-		<br>
-		<div class="wrongGuess">wrong guess</div>
+		<div class='col-md-6'>
+			<div class="underscore">_ _ _ _ _ _</div>
+		</div>
+		<div class='col-md-6'>
+			<div class="rightGuess">right guess</div>
+		</div>
+		<div class= 'col-md-12'>
+			<div class="wrongGuess">wrong guess</div>
+		</div>
+	</div>
 
-	</div>	
 </html>
